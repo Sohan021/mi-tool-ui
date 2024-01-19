@@ -1,0 +1,26 @@
+@import "~bootstrap/scss/bootstrap";
+
+$primary-color: rgba(22, 33, 62, 1);
+$secondary-color: rgba(255, 174, 25, 1);
+
+:root {
+  --black: rgba(37, 55, 72, 1);
+  --greygrey-20-20: rgba(211, 216, 221, 1);
+  --greygrey-20-80: rgba(111, 130, 148, 1);
+  --greygrey-40: rgba(178, 187, 197, 1);
+  --medium-13-font-family: "Inter-Medium", Helvetica;
+  --medium-13-font-size: 13px;
+  --medium-13-font-style: normal;
+  --medium-13-font-weight: 500;
+  --medium-13-letter-spacing: 0px;
+  --medium-13-line-height: 150%;
+  --off-whiteoffwhite: rgba(230, 234, 237, 1);
+  --off-whiteoffwhite-60: rgba(239, 242, 244, 1);
+  --white: rgba(255, 255, 255, 1);
+}
+
+
+:export {
+  primaryColor: $primary-color;
+  secondaryColor: $secondary-color;
+}
