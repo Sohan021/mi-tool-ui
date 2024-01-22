@@ -1,5 +1,5 @@
-import SignIn from "@/components/signIn";
 import React from "react";
+import SignIn from "../../components/SignIn";
 
 const page = () => {
   return <SignIn />;

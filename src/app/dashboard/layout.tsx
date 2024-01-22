@@ -8,8 +8,6 @@ config.autoAddCss = false;
 
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { SideNavBar } from "@/components/sideNavbar";
-import TopNavbar from "@/components/topNavbar";
 import { CloseButton, Offcanvas } from "react-bootstrap";
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -26,6 +24,8 @@ import {
   faHome,
   faWrench,
 } from "@fortawesome/free-solid-svg-icons";
+import { SideNavBar } from "../../components/sideNavbar";
+import TopNavbar from "../../components/topNavbar";
 
 const inter = Inter({ subsets: ["latin"] });
 

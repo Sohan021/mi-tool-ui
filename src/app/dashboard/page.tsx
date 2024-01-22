@@ -1,10 +1,10 @@
-import MarketDataTable from "@/components/marketDataTable";
+import EnergyRegulatoryMarketDataTable from "../../components/energyRegulatoryMarketDataTable";
+import GasDataTable from "../../components/gasDataTable";
+import MarketDataTable from "../../components/marketDataTable";
+import WeatherForecast from "../../components/weatherForecast";
+import { ApiRoutes } from "../../core/apiRoutes";
 import { IEnergyRegulatoryApiResponse, IEnergyRegulatoryData, IEnergyRegulatoryUiData, IFxRateData, IFxRatesUiData } from "../model/types";
-import { ApiRoutes } from "@/core/apiRoutes";
 import { format } from "date-fns";
-import EnergyRegulatoryMarketDataTable from "@/components/energyRegulatoryMarketDataTable";
-import GasDataTable from "@/components/gasDataTable";
-import WeatherForecast from "@/components/weatherForecast";
 
 function filterFxRateData(jsonData: any): IFxRateData {
   const { title, rate, description, targetCurrency, rateType } = jsonData;

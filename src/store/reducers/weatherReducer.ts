@@ -1,7 +1,6 @@
-import { AppThunk } from "@/core/reduxStore";
-import { getWeather } from "@/httpService/weatherServices";
 import { AnyAction, createSlice, PayloadAction, ThunkAction } from "@reduxjs/toolkit";
 import { RootState } from "..";
+import { getWeather } from "../../httpService/weatherServices";
 
 interface WeatherState {
   tempList: any[];

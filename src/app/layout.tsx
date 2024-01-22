@@ -1,4 +1,5 @@
-import Providers from "@/store/reducers/provider";
+import Providers from "../store/reducers/provider";
+
 export const metadata = {
   title: "Mi-Tool",
   description: "",
