@@ -20,7 +20,9 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "target": "es5",
+    "forceConsistentCasingInFileNames": true
   },
   "include": [
     "next-env.d.ts",
